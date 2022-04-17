@@ -8,10 +8,10 @@ jdk:
 sudo: false
 
 script: 
-- "mvn evosuite:genereate"
-- "mvn evosuite:export"
-- "mvn test"
-- "mvn evosuite:info"
+# - "mvn evosuite:genereate"
+# - "mvn evosuite:export"
+# - "mvn test"
+# - "mvn evosuite:info"
 - "mvn cobertura:cobertura"
 
 after_success:
